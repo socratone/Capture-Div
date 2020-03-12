@@ -6,11 +6,11 @@ makeDivToImageFile(captureDiv);
 
 function saveAs(url, fileName) {
   const link = document.createElement('a');
-    link.href = url;
-    link.download = fileName;
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+  link.href = url;
+  link.download = fileName;
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
 }
  
 function makeDivToImageFile(captureDiv) {
